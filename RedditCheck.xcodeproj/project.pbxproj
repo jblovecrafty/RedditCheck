@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3710C0E416C9C07C003CCEDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3710C0E316C9C07C003CCEDB /* UIKit.framework */; };
+		3710C0E616C9C07C003CCEDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3710C0E516C9C07C003CCEDB /* Foundation.framework */; };
+		3710C0E816C9C07C003CCEDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3710C0E716C9C07C003CCEDB /* CoreGraphics.framework */; };
+		3710C0EE16C9C07D003CCEDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3710C0EC16C9C07D003CCEDB /* InfoPlist.strings */; };
+		3710C0F016C9C07D003CCEDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C0EF16C9C07D003CCEDB /* main.m */; };
+		3710C0F416C9C07F003CCEDB /* RedditCheckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C0F316C9C07F003CCEDB /* RedditCheckAppDelegate.m */; };
+		3710C0F716C9C07F003CCEDB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710C0F516C9C07F003CCEDB /* MainStoryboard.storyboard */; };
+		3710C0FA16C9C07F003CCEDB /* RedditCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3710C0DF16C9C07C003CCEDB /* RedditCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3710C0E316C9C07C003CCEDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3710C0E516C9C07C003CCEDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3710C0E716C9C07C003CCEDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3710C0EB16C9C07D003CCEDB /* RedditCheck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RedditCheck-Info.plist"; sourceTree = "<group>"; };
+		3710C0ED16C9C07D003CCEDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3710C0EF16C9C07D003CCEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3710C0F116C9C07F003CCEDB /* RedditCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RedditCheck-Prefix.pch"; sourceTree = "<group>"; };
+		3710C0F216C9C07F003CCEDB /* RedditCheckAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditCheckAppDelegate.h; sourceTree = "<group>"; };
+		3710C0F316C9C07F003CCEDB /* RedditCheckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditCheckAppDelegate.m; sourceTree = "<group>"; };
+		3710C0F616C9C07F003CCEDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3710C0F816C9C07F003CCEDB /* RedditCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditCheckViewController.h; sourceTree = "<group>"; };
+		3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditCheckViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3710C0DC16C9C07C003CCEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710C0E416C9C07C003CCEDB /* UIKit.framework in Frameworks */,
+				3710C0E616C9C07C003CCEDB /* Foundation.framework in Frameworks */,
+				3710C0E816C9C07C003CCEDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3710C0D416C9C07C003CCEDB = {
+			isa = PBXGroup;
+			children = (
+				3710C0E916C9C07C003CCEDB /* RedditCheck */,
+				3710C0E216C9C07C003CCEDB /* Frameworks */,
+				3710C0E016C9C07C003CCEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3710C0E016C9C07C003CCEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3710C0DF16C9C07C003CCEDB /* RedditCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3710C0E216C9C07C003CCEDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3710C0E316C9C07C003CCEDB /* UIKit.framework */,
+				3710C0E516C9C07C003CCEDB /* Foundation.framework */,
+				3710C0E716C9C07C003CCEDB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3710C0E916C9C07C003CCEDB /* RedditCheck */ = {
+			isa = PBXGroup;
+			children = (
+				3710C0F216C9C07F003CCEDB /* RedditCheckAppDelegate.h */,
+				3710C0F316C9C07F003CCEDB /* RedditCheckAppDelegate.m */,
+				3710C0F516C9C07F003CCEDB /* MainStoryboard.storyboard */,
+				3710C0F816C9C07F003CCEDB /* RedditCheckViewController.h */,
+				3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */,
+				3710C0EA16C9C07D003CCEDB /* Supporting Files */,
+			);
+			path = RedditCheck;
+			sourceTree = "<group>";
+		};
+		3710C0EA16C9C07D003CCEDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3710C0EB16C9C07D003CCEDB /* RedditCheck-Info.plist */,
+				3710C0EC16C9C07D003CCEDB /* InfoPlist.strings */,
+				3710C0EF16C9C07D003CCEDB /* main.m */,
+				3710C0F116C9C07F003CCEDB /* RedditCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3710C0DE16C9C07C003CCEDB /* RedditCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3710C0FD16C9C07F003CCEDB /* Build configuration list for PBXNativeTarget "RedditCheck" */;
+			buildPhases = (
+				3710C0DB16C9C07C003CCEDB /* Sources */,
+				3710C0DC16C9C07C003CCEDB /* Frameworks */,
+				3710C0DD16C9C07C003CCEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedditCheck;
+			productName = RedditCheck;
+			productReference = 3710C0DF16C9C07C003CCEDB /* RedditCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3710C0D616C9C07C003CCEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RedditCheck;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Joe Jones";
+			};
+			buildConfigurationList = 3710C0D916C9C07C003CCEDB /* Build configuration list for PBXProject "RedditCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3710C0D416C9C07C003CCEDB;
+			productRefGroup = 3710C0E016C9C07C003CCEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3710C0DE16C9C07C003CCEDB /* RedditCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3710C0DD16C9C07C003CCEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710C0EE16C9C07D003CCEDB /* InfoPlist.strings in Resources */,
+				3710C0F716C9C07F003CCEDB /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3710C0DB16C9C07C003CCEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710C0F016C9C07D003CCEDB /* main.m in Sources */,
+				3710C0F416C9C07F003CCEDB /* RedditCheckAppDelegate.m in Sources */,
+				3710C0FA16C9C07F003CCEDB /* RedditCheckViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3710C0EC16C9C07D003CCEDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3710C0ED16C9C07D003CCEDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3710C0F516C9C07F003CCEDB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3710C0F616C9C07F003CCEDB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3710C0FB16C9C07F003CCEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3710C0FC16C9C07F003CCEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3710C0FE16C9C07F003CCEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditCheck/RedditCheck-Prefix.pch";
+				INFOPLIST_FILE = "RedditCheck/RedditCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3710C0FF16C9C07F003CCEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RedditCheck/RedditCheck-Prefix.pch";
+				INFOPLIST_FILE = "RedditCheck/RedditCheck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3710C0D916C9C07C003CCEDB /* Build configuration list for PBXProject "RedditCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3710C0FB16C9C07F003CCEDB /* Debug */,
+				3710C0FC16C9C07F003CCEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3710C0FD16C9C07F003CCEDB /* Build configuration list for PBXNativeTarget "RedditCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3710C0FE16C9C07F003CCEDB /* Debug */,
+				3710C0FF16C9C07F003CCEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3710C0D616C9C07C003CCEDB /* Project object */;
+}
