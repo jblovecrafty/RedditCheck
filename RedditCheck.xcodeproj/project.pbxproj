@@ -15,6 +15,11 @@
 		3710C0F416C9C07F003CCEDB /* RedditCheckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C0F316C9C07F003CCEDB /* RedditCheckAppDelegate.m */; };
 		3710C0F716C9C07F003CCEDB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3710C0F516C9C07F003CCEDB /* MainStoryboard.storyboard */; };
 		3710C0FA16C9C07F003CCEDB /* RedditCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */; };
+		3710C10816C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C10116C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.m */; };
+		3710C10916C9C0DE003CCEDB /* RedditFetchSubRedditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C10316C9C0DE003CCEDB /* RedditFetchSubRedditViewController.m */; };
+		3710C10A16C9C0DE003CCEDB /* RedditFetchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C10516C9C0DE003CCEDB /* RedditFetchViewController.m */; };
+		3710C10B16C9C0DE003CCEDB /* RedditFetchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710C10716C9C0DE003CCEDB /* RedditFetchWebViewController.m */; };
+		379FC6C61732F8BC00B852A7 /* RedditCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379FC6C51732F8BC00B852A7 /* RedditCommentsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,16 @@
 		3710C0F616C9C07F003CCEDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		3710C0F816C9C07F003CCEDB /* RedditCheckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedditCheckViewController.h; sourceTree = "<group>"; };
 		3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedditCheckViewController.m; sourceTree = "<group>"; };
+		3710C10016C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditFetchStoryResults_TVC.h; sourceTree = "<group>"; };
+		3710C10116C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFetchStoryResults_TVC.m; sourceTree = "<group>"; };
+		3710C10216C9C0DE003CCEDB /* RedditFetchSubRedditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditFetchSubRedditViewController.h; sourceTree = "<group>"; };
+		3710C10316C9C0DE003CCEDB /* RedditFetchSubRedditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFetchSubRedditViewController.m; sourceTree = "<group>"; };
+		3710C10416C9C0DE003CCEDB /* RedditFetchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditFetchViewController.h; sourceTree = "<group>"; };
+		3710C10516C9C0DE003CCEDB /* RedditFetchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFetchViewController.m; sourceTree = "<group>"; };
+		3710C10616C9C0DE003CCEDB /* RedditFetchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditFetchWebViewController.h; sourceTree = "<group>"; };
+		3710C10716C9C0DE003CCEDB /* RedditFetchWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditFetchWebViewController.m; sourceTree = "<group>"; };
+		379FC6C41732F8BC00B852A7 /* RedditCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditCommentsViewController.h; sourceTree = "<group>"; };
+		379FC6C51732F8BC00B852A7 /* RedditCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedditCommentsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +92,19 @@
 		3710C0E916C9C07C003CCEDB /* RedditCheck */ = {
 			isa = PBXGroup;
 			children = (
+				379FC6C41732F8BC00B852A7 /* RedditCommentsViewController.h */,
+				379FC6C51732F8BC00B852A7 /* RedditCommentsViewController.m */,
 				3710C0F216C9C07F003CCEDB /* RedditCheckAppDelegate.h */,
 				3710C0F316C9C07F003CCEDB /* RedditCheckAppDelegate.m */,
 				3710C0F516C9C07F003CCEDB /* MainStoryboard.storyboard */,
+				3710C10016C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.h */,
+				3710C10116C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.m */,
+				3710C10216C9C0DE003CCEDB /* RedditFetchSubRedditViewController.h */,
+				3710C10316C9C0DE003CCEDB /* RedditFetchSubRedditViewController.m */,
+				3710C10416C9C0DE003CCEDB /* RedditFetchViewController.h */,
+				3710C10516C9C0DE003CCEDB /* RedditFetchViewController.m */,
+				3710C10616C9C0DE003CCEDB /* RedditFetchWebViewController.h */,
+				3710C10716C9C0DE003CCEDB /* RedditFetchWebViewController.m */,
 				3710C0F816C9C07F003CCEDB /* RedditCheckViewController.h */,
 				3710C0F916C9C07F003CCEDB /* RedditCheckViewController.m */,
 				3710C0EA16C9C07D003CCEDB /* Supporting Files */,
@@ -165,6 +190,11 @@
 				3710C0F016C9C07D003CCEDB /* main.m in Sources */,
 				3710C0F416C9C07F003CCEDB /* RedditCheckAppDelegate.m in Sources */,
 				3710C0FA16C9C07F003CCEDB /* RedditCheckViewController.m in Sources */,
+				3710C10816C9C0DE003CCEDB /* RedditFetchStoryResults_TVC.m in Sources */,
+				3710C10916C9C0DE003CCEDB /* RedditFetchSubRedditViewController.m in Sources */,
+				3710C10A16C9C0DE003CCEDB /* RedditFetchViewController.m in Sources */,
+				3710C10B16C9C0DE003CCEDB /* RedditFetchWebViewController.m in Sources */,
+				379FC6C61732F8BC00B852A7 /* RedditCommentsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +310,7 @@
 				3710C0FF16C9C07F003CCEDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
